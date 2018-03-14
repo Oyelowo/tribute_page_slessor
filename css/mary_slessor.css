@@ -27,8 +27,6 @@ header{
     background: url("https://github.com/Oyelowo/tribute_page_slessor/blob/master/img/grunge_wall.png?raw=true")
 }
 #img-intro{
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
     background-color: lightgray;
 }
 
