@@ -1,14 +1,15 @@
 <style>
         body{
-            background: url("https://github.com/Oyelowo/tribute_page_slessor/blob/master/img/brick-wall-1920x1080%20(3).png?raw=true")
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT48h3K16B-FSBXL_D004FkJpCpDCQt_7O3gEGo2ySRGXP2x3n9")
+            
         }
         .container{
         margin: auto;
         background-color: white;
         width: 1100px;
         height: auto;
-        background: url("https://github.com/Oyelowo/tribute_page_slessor/blob/master/img/brick-wall-1920x1080%20(3).png?raw=true")
-            
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT48h3K16B-FSBXL_D004FkJpCpDCQt_7O3gEGo2ySRGXP2x3n9")
+        
         
         
         /*background: linear-gradient(black, #97d4b8ee, lightgreen, #e4e28e, #ffeee6);*/
@@ -86,14 +87,15 @@
     }
     
     ul{
-        height: 300px; /* or any value */
+        height: 500px; /* or any value */
         overflow-y: auto;
         margin: auto;
         line-height: 1cm;
         position: relative;
         text-align: auto;;
         font-size: 25px;
-        padding-left: 100px; 
+        padding-left: 100px;
+        font-family: Georgia; 
         /*width: 80vmin;*/
     }
     
@@ -114,15 +116,39 @@
         animation-duration: 3s;
         animation-iteration-count:infinite;
     }
-    @keyframes fade {
-        50% {
+    @keyframes fade{
+        20% {
           opacity: 0.1;
-        transform: scale(1.4);
-        animation-timing-function: ease-out;
-        }
+        transform: scale(1.1);
+        animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+        margin-left: 20%;
+        
       }
+        40% {
+          opacity: 0.6;
+        transform: scale(1.2);
+        animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        margin-left: 10%;
+        
+        }
+        80% {
+          opacity: 0.2;
+        transform: scale(1.4);
+        animation-timing-function:cubic-bezier(0.77, 0, 0.175, 1);
+        margin-right: 20%;
+        
+      }
+      100% {
+          opacity: 0.9;
+        transform: scale(1.0);
+        animation-timing-function: ease-in-out;
+        margin-right: 10%;
+        
+      }
+    }
     
       h2{
+          padding: 2% 0% 2% 0%;
           text-align: center;
           font-variant: small-caps;
           font-size: 40px;
@@ -130,18 +156,21 @@
       }
     
     #quote{
-        margin: auto;
+        margin: 2% auto;
+        padding: 1% 0% 2% 0%;
         font-size: 24px;
         background: url("https://github.com/Oyelowo/tribute_page_slessor/blob/master/img/grunge_wall.png?raw=true")
     }
     
     #conclusion{
+        padding: 1% 0% 1% 0%;
         text-align: center;
+        margin-bottom: 2%;
         font-size: 30px;
         background:url("https://github.com/Oyelowo/tribute_page_slessor/blob/master/img/grunge_wall.png?raw=true")
-    
     }
     #footnote{
+        padding: 2% 0% 2% 0%;
         background: url("https://github.com/Oyelowo/tribute_page_slessor/blob/master/img/grunge_wall.png?raw=true")
     }
     #footnote footer{
@@ -151,8 +180,23 @@
     #footnote footer p{
         text-align: center;
     }
-    
-    
+    a:link {
+        color: blue;
+    }
+
+    a:visited {
+        color: rgb(135, 71, 172);
+    }
+
+    a:hover {
+        background-color: lightgreen;
+        transform: scale(1.5);
+    }
+
+    a:active {
+        background-color: brown;
+    } 
+
     </style>
     
     
@@ -162,6 +206,7 @@
         <head>
             <title>Mary Slesor</title>
             <link rel="stylesheet"  type="text/css" href="C:/Users/oyeda/Desktop/webdev/css/slessor.css">
+            <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
         </head>
         <body>
             <div class="container">
@@ -201,7 +246,7 @@
     
                         <div>
                             <div>
-                                <h2>Life and Departure of Mary Slessor:</h2>
+                                <h2>Life and Departure of Mary Slessor</h2>
                             </div>
                                 <div id="tribute-info">
                                     <ul>
@@ -267,10 +312,10 @@
                     
                 <div id="footnote">
                     <footer>
-                        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Mary_Slessor" 
-                        target="_blank">Check wikipedia for more information</a>
+                        <p>See <a id="tribute-link" href="https://en.wikipedia.org/wiki/Mary_Slessor" 
+                        target="_blank">wikipedia</a> for more information</p>
     
-                        <p>created by: Oyelowo Oyedayo</p>
+                        <p>created by: <a  href="https://www.linkedin.com/in/oyelowo-oyedayo/" target="_blank">Oyelowo Oyedayo</a> </p>
                     </footer>
                 </div>
            
