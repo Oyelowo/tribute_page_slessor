@@ -77,7 +77,7 @@ width: 100%;
 ul{
 height: 500px; 
 overflow-y: auto;
-margin: auto;
+margin: -3% auto;
 line-height: 1cm;
 position: relative;
 text-align: auto;;
@@ -144,7 +144,7 @@ h2{
 }
 
 #quote{
-margin: 2% auto;
+margin: 0.5% auto;
 text-align: center;
 padding: 0.5% 0% 0.5% 0%;
 font-size: 21px;
