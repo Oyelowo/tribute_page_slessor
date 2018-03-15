@@ -144,7 +144,7 @@ h2{
 }
 
 #quote{
-margin: 1% auto;
+margin: 3% auto;
 text-align: center;
 padding: 2% 0% 0.5% 0%;
 font-size: 21px;
@@ -154,7 +154,7 @@ background: url("https://github.com/Oyelowo/tribute_page_slessor/blob/master/img
 #conclusion{
 padding: 0.5% 0% 0.5% 0%;
 text-align: center;
-margin-top: -3%;
+margin-top: -1%;
 margin-bottom: 2%;
 font-style: oblique;
 font-size: 40px;
