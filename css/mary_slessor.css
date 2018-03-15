@@ -160,9 +160,9 @@ font-size: 40px;
 font-family:Georgia, 'Times New Roman', Times, serif;
 background:url("https://github.com/Oyelowo/tribute_page_slessor/blob/master/img/grunge_wall.png?raw=true")
 }
-#footnote{
-margin: auto;
-padding: 0.2% 0% 0.2% 0%;
+#footnote footer{
+margin: 50%;
+padding: 0.3% 0.3% 0.3% 0.3%;
 background: url("https://github.com/Oyelowo/tribute_page_slessor/blob/master/img/grunge_wall.png?raw=true")
 }
 #footnote footer{
